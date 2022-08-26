@@ -1,0 +1,39 @@
+[debug] [2022-08-26T15:36:19.567Z] ----------------------------------------------------------------------
+[debug] [2022-08-26T15:36:19.568Z] Command:       D:\node js\node.exe C:\Users\DarkMaaaster\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-26T15:36:19.568Z] CLI Version:   11.8.0
+[debug] [2022-08-26T15:36:19.569Z] Platform:      win32
+[debug] [2022-08-26T15:36:19.569Z] Node Version:  v16.16.0
+[debug] [2022-08-26T15:36:19.569Z] Time:          Fri Aug 26 2022 18:36:19 GMT+0300 (Eastern European Summer Time)
+[debug] [2022-08-26T15:36:19.569Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-26T15:36:19.575Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-26T15:36:19.575Z] > authorizing via signed-in user (darkmaaasterstube@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DarkMaaaster\Desktop\Beemos TW
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-26T15:37:54.180Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-26T15:37:54.711Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-26T15:37:54.711Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project beemostw (beemostw) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
