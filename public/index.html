@@ -24,7 +24,7 @@
         <p id="lmao" class="lmao"></p>
     </div> -->
 
-    <div id="header" class="fixed h-14 w-full bg-bmo-y flex justify-between items-center font-bold text-white md:text-lg lg:text-xl">
+    <div id="header" class="fixed h-14 w-full bg-bmo-y flex justify-between items-center font-bold text-white text-sm-base">
         <a class="h-full items-center flex" href="index.html"><img class="h-8 px-4" src="assets/Logo/Logo_no_b2.png" alt="Beemo's header logo"></a>
         <div class="hidden md:flex justify-around lg:justify-center lg:gap-8 w-3/5 text-center">
             <a href="#" class="header-daily-menu px-2 bmo-link"></a>
@@ -38,13 +38,42 @@
     <div id="content">
         <div id="cover" class="h-screen bg-bmo-b flex flex-col items-center justify-between text-white bg-center bg-fixed" style="background-image: url(assets/bg-op-50.jpg);">
             <img class="h-1/5 md:h-1/3 mt-32" src="assets/Logo/Logo_y_w_HDDD.png" alt="cover beemo's logo">
-            <h1 class="cover-title justify-self-end px-8 text-center text-2xl md:text-4xl lg:text-5xl mb-12"></h1>
+            <h1 class="cover-title justify-self-end px-8 text-center text-sm-2xl mb-12"></h1>
         </div>
 
-        <div id="short-presentation" class="mx-auto container h-fit bg-white text-bmo-b text-2xl md:text-3xl flex flex-col items gap-4 md:gap-6 p-16">
+        <div id="short-presentation" class="mx-auto container h-fit bg-white text-bmo-b text-2xl md:text-3xl flex flex-col items gap-4 md:gap-6 py-16 px-8">
             <img class="h-6 w-fit" src="assets/Logo/Logo_no_b2_brown.png" alt="beemo's small logo">
-            <h2 class="short-presentation-title lg:text-4xl lg:w-3/4"></h2>
+            <h2 class="short-presentation-title text-sm-2xl lg:w-3/4"></h2>
             <div class="bmo-btn bmo-btn-view-menu"></div>
+        </div>
+
+        <div id="about-us" class="bg-center bg-fixed" style="background-image: url(assets/bg-2.jpg);">
+            <div class="container mx-auto py-12 md:py-24 flex flex-col gap-8 items-center md:block">
+                <div id="about-us-info" class="mx-8 md:w-2/3 lg:w-1/2 h-[360px] bg-white text-bmo-b p-8 overflow-hidden md:overflow-scroll">
+                    <h3 class="about-us-title text-sm-xl mb-4"></h3>
+                    <span class="about-us-description text-sm-sm leading-none" style="line-height: 1.25rem;"></span>
+                </div>
+                <button id="about-us-btn-open" class="bmo-btn-show-more bmo-btn md:hidden" onclick="openAboutUs()"></button>
+                <button id="about-us-btn-close" class="bmo-btn-show-less hidden bmo-btn md:hidden" onclick="closeAboutUs()"></button>
+                <script>
+                    var div = document.getElementById("about-us-info");
+                    var btnOpen = document.getElementById("about-us-btn-open");
+                    var btnClose = document.getElementById("about-us-btn-close");
+
+                    function openAboutUs(){
+                        div.classList.remove("h-[360px]");
+                        div.classList.add("h-fit");
+                        btnClose.classList.remove("hidden");
+                        btnOpen.classList.add("hidden");
+                    }
+                    function closeAboutUs(){
+                        div.classList.remove("h-fit");
+                        div.classList.add("h-[360px]");
+                        btnOpen.classList.remove("hidden");
+                        btnClose.classList.add("hidden");
+                    }
+                </script>
+            </div>
         </div>
     </div>
 

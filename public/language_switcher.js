@@ -11,12 +11,7 @@ function loadLanguageContent(lang_code){
 
         var content =  Object.assign.apply({}, keys.map( (v, i) => ( {[v]: values[i]} ) ) );
         for(id in content){
-            // let selectedElement = document.getElementById(id);
-            // if(selectedElement){
-            //     selectedElement.innerHTML = content[id];
-            // }
             let selectedElements = document.getElementsByClassName(id);
-            console.log(selectedElements);
             for(let i = 0; i < selectedElements.length; i++){
                 selectedElements[i].innerHTML = content[id];
             }
