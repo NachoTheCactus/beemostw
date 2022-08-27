@@ -1,7 +1,13 @@
 {
+    "bmo-btn-view-menu":"View Menu",
+
     "header-daily-menu": "DAILY MENU",
     "header-menu": "MENU",
     "header-about-us": "ABOUT US",
     "header-contact": "CONTACT",
-    "header-reservations": "RESERVATIONS"
+    "header-reservations": "RESERVATIONS",
+
+    "cover-title": "Beemo's Restaurant, old fashioned to fulfill your tastes.",
+
+    "short-presentation-title": "One of the best restaurants in the world, with more than 50 years of experience, specialized in fine foods."
 }
