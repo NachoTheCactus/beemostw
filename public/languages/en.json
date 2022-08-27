@@ -1,5 +1,7 @@
 {
-    "title": "Hello",
-    "subtitle": "How are you?",
-    "lmao":"The goat steps on the rock, the rock cracks in four, break the goat's head in four like the stone split in four."
+    "header-daily-menu": "DAILY MENU",
+    "header-menu": "MENU",
+    "header-about-us": "ABOUT US",
+    "header-contact": "CONTACT",
+    "header-reservations": "RESERVATIONS"
 }

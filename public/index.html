@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="NachoTheCactus's responsive restaurant website.">
     <link rel="stylesheet" href="output.css">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="assets/Logo/favicon.png">
+    <title>Beemo's</title>
 </head>
-<body>
-    <div>
+<body class="font-bmo">
+    <!-- <div>
         <button onclick="loadLanguageContent('en');">EN</button>
         <button onclick="loadLanguageContent('es');">ES</button>
         <button onclick="loadLanguageContent('ro');">RO</button>
@@ -18,7 +19,27 @@
         <h1 id="title" class="title text-4xl"></h1>
         <h2 id="subtitle" class="subtitle text-2xl"></h2>
         <p id="lmao" class="lmao"></p>
+    </div> -->
+
+    <div id="header" class="h-14 w-full bg-bmo-y flex justify-between items-center font-bold text-white md:text-sm lg:text-xl">
+        <a class="h-full items-center flex" href="index.html"><img class="h-8 px-4" src="assets/Logo/Logo_no_b2.png" alt="Beemo's header logo"></a>
+        <div class="hidden md:flex justify-around w-1/2 text-center">
+            <a href="#" class="header-daily-menu px-2 bmo-link"></a>
+            <a href="#" class="header-menu px-2 bmo-link"></a>
+            <a href="#" class="header-about-us px-2 bmo-link"></a>
+            <a href="#" class="header-contact px-2 bmo-link"></a>
+        </div>
+        <div class="header-reservations py-3 px-6 bmo-link"></div>
     </div>
+
+    <div id="content" class="h-[2000px] w-full  bg-bmo-b">
+
+    </div>
+
+    <div id="footer">
+
+    </div>
+
     <script src="language_switcher.js"></script>
 </body>
 </html>

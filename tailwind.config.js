@@ -2,11 +2,15 @@
 module.exports = {
   content: ["public/*.{html,js}"],
   theme: {
+    fontFamily: {
+      'bmo': ['Rokkitt', 'serif']
+    },
     colors:{
       'bmo': {
-        y: '#EBB142',
+        y: '#FEB234',
         b: '#772804',
-      }
+      },
+      'white': '#ffffff',
     },
     extend: {},
   },
