@@ -9,10 +9,10 @@
     width: 18px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #EBB142;
+    background-color: #FEB234;
 }
 ::-webkit-scrollbar-thumb:active {
-    background-color: #BF7E00; 
+    background-color: #e29d2d; 
 }
 .bmo-link {
     @apply hover:text-bmo-b hover:cursor-pointer duration-200;
