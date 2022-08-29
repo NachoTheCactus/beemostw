@@ -589,6 +589,14 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -657,6 +665,14 @@ video {
   height: 360px;
 }
 
+.h-\[800px\] {
+  height: 800px;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -671,12 +687,48 @@ video {
   width: fit-content;
 }
 
+.w-\[180px\] {
+  width: 180px;
+}
+
+.min-w-\[240px\] {
+  min-width: 240px;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.snap-x {
+  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+}
+
+.snap-mandatory {
+  --tw-scroll-snap-strictness: mandatory;
+}
+
+.snap-center {
+  scroll-snap-align: center;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -699,22 +751,34 @@ video {
   gap: 2rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .justify-self-end {
   justify-self: end;
+}
+
+.overflow-auto {
+  overflow: auto;
 }
 
 .overflow-hidden {
   overflow: hidden;
 }
 
+.border-\[10px\] {
+  border-width: 10px;
+}
+
+.border-bmo-y {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 178 52 / var(--tw-border-opacity));
+}
+
 .bg-bmo-y {
   --tw-bg-opacity: 1;
   background-color: rgb(254 178 52 / var(--tw-bg-opacity));
-}
-
-.bg-bmo-b {
-  --tw-bg-opacity: 1;
-  background-color: rgb(119 40 4 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -767,6 +831,15 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-center {
@@ -823,6 +896,15 @@ video {
 
 ::-webkit-scrollbar-thumb:active {
   background-color: #e29d2d;
+}
+
+#cooks-portret::-webkit-scrollbar{
+  display: none;
+}
+
+#cooks-portret{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .bmo-link {
@@ -990,6 +1072,10 @@ video {
   }
 }
 
+.cook-shadow{
+  text-shadow: 1px 1px 6px black;
+}
+
 @media (min-width: 768px) {
   .md\:block {
     display: block;
@@ -1031,6 +1117,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:w-3\/4 {
     width: 75%;
   }

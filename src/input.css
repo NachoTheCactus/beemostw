@@ -14,6 +14,13 @@
 ::-webkit-scrollbar-thumb:active {
     background-color: #e29d2d; 
 }
+#cooks-portret::-webkit-scrollbar{
+    display: none;
+}
+#cooks-portret{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
 .bmo-link {
     @apply hover:text-bmo-b hover:cursor-pointer duration-200;
 }
@@ -37,4 +44,7 @@
 }
 .text-sm-3xl{
     @apply text-3xl md:text-4xl lg:text-5xl;
+}
+.cook-shadow{
+    text-shadow: 1px 1px 6px black;
 }
