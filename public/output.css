@@ -759,10 +759,6 @@ video {
   overflow: hidden;
 }
 
-.border-\[10px\] {
-  border-width: 10px;
-}
-
 .border-bmo-y {
   --tw-border-opacity: 1;
   border-color: rgb(254 178 52 / var(--tw-border-opacity));
@@ -820,19 +816,9 @@ video {
   padding-bottom: 3rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .pb-16 {
@@ -841,10 +827,6 @@ video {
 
 .pb-6 {
   padding-bottom: 1.5rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .text-center {
