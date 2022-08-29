@@ -589,14 +589,6 @@ video {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -823,14 +815,14 @@ video {
   padding-right: 2rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-20 {
@@ -838,8 +830,21 @@ video {
   padding-bottom: 5rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-center {
@@ -1097,12 +1102,20 @@ video {
     width: 66.666667%;
   }
 
+  .md\:w-\[240px\] {
+    width: 240px;
+  }
+
   .md\:gap-6 {
     gap: 1.5rem;
   }
 
   .md\:overflow-scroll {
     overflow: scroll;
+  }
+
+  .md\:border-\[10px\] {
+    border-width: 10px;
   }
 
   .md\:py-24 {
