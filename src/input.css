@@ -48,3 +48,12 @@
 .cook-shadow{
     text-shadow: 1px 1px 6px black;
 }
+.cook-shadow-lg{
+    text-shadow: 3px 3px 6px black;
+}
+.cook-shadow-btn{
+    box-shadow: 2px 2px 8px black;
+}
+.cook-shadow-btn:active{
+    box-shadow: inset 1px 1px 4px black;
+}
