@@ -746,10 +746,6 @@ video {
   height: 5rem;
 }
 
-.w-4\/5 {
-  width: 80%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1026,10 +1022,6 @@ video {
   color: rgb(119 40 4 / var(--tw-text-opacity));
 }
 
-.opacity-30 {
-  opacity: 0.3;
-}
-
 .opacity-0 {
   opacity: 0;
 }
@@ -1050,14 +1042,6 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
 }
 
 * {
@@ -1268,11 +1252,6 @@ video {
 
 .hover\:cursor-pointer:hover {
   cursor: pointer;
-}
-
-.active\:bg-bmo-b:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(119 40 4 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:fill-bmo-y {
