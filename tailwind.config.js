@@ -9,8 +9,10 @@ module.exports = {
       'bmo': {
         y: '#FEB234',
         b: '#772804',
+        b2: '#693c22',
       },
       'white': '#ffffff',
+      'black': '#000000',
     },
     extend: {},
   },

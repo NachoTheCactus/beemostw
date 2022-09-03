@@ -23,16 +23,33 @@
         <h2 id="subtitle" class="subtitle text-2xl"></h2>
         <p id="lmao" class="lmao"></p>
     </div> -->
-
-    <div id="header" class="z-10 fixed h-14 w-full bg-bmo-y flex justify-between items-center font-bold text-white text-sm-base" style="box-shadow: 4px -10px 30px black;">
-        <a class="h-full items-center flex" href="index.html"><img class="h-8 px-4" src="assets/Logo/Logo_no_b2.png" alt="Beemo's header logo"></a>
+    <div id="sidebar" class="fixed top-14 left-0 h-full bg-bmo-y md:hidden z-20" style="width: 0; transition: width 500ms;">
+        <div class="px-8">
+            <img class="h-10 mt-4" src="assets/Logo/Logo_no_b2.png" alt="Beemo's logo">
+            <div class="border-t-2 border-t-white mt-4 pt-4 flex flex-col text-white text-sm-xl max-w-full overflow-hidden transition-opacity duration-500">
+                <a href="#" class="header-daily-menu bmo-link"></a>
+                <a href="#" class="header-menu bmo-link"></a>
+                <a href="#" class="header-about-us bmo-link"></a>
+                <a href="#" class="header-contact bmo-link"></a>
+            </div>
+        </div>
+    </div>
+    <div id="sidebar-bg" class="fixed bg-black w-full h-full md:hidden opacity-0 z-10" style="transition: all 500ms; display: none;">
+    </div>
+    <div id="header" class="z-10 fixed h-14 w-full bg-bmo-y flex justify-between items-center font-bold text-white text-sm-sm" style="box-shadow: 4px -10px 30px black;">
+        <div id="btn_brgr" class="md:hidden px-4 group">
+            <div id="brgr1" class="h-0.5 w-7 bg-white mb-1.5 duration-500 group-active:bg-bmo-b"></div>
+            <div id="brgr2" class="h-0.5 w-7 bg-white mb-1.5 duration-500"></div>
+            <div id="brgr3" class="h-0.5 w-7 bg-white mb-1.5 duration-500 group-active:bg-bmo-b"></div>
+        </div>
+        <a class="hidden md:flex h-full items-center" href="index.html"><img class="h-8 px-4" src="assets/Logo/Logo_no_b2.png" alt="Beemo's header logo"></a>
         <div class="hidden md:flex justify-around lg:justify-center lg:gap-8 w-3/5 text-center">
             <a href="#" class="header-daily-menu px-2 bmo-link"></a>
             <a href="#" class="header-menu px-2 bmo-link"></a>
             <a href="#" class="header-about-us px-2 bmo-link"></a>
             <a href="#" class="header-contact px-2 bmo-link"></a>
         </div>
-        <div class="header-reservations py-3 px-6 bmo-link"></div>
+        <div class="header-reservations py-3 px-3 md:px-6 bmo-link"></div>
     </div>
 
     <div id="content">
@@ -138,7 +155,7 @@
         </div>
     </div>
 
-    <div id="footer" class="border-t-2 border-bmo-y h-20 w-full bg-[#693c22] flex justify-between items-center text-white text-sm-base">
+    <div id="footer" class="border-t-2 border-bmo-y h-20 w-full bg-bmo-b2 flex justify-between items-center text-white text-sm-base">
         <a class="h-full pb-2 pl-4 items-center flex" href="index.html"><img class="h-8 px-4" src="assets/Logo/Logo_no_b2.png" alt="Beemo's header logo"></a>
         <div class="flex justify-evenly items-center text-sm-sm">
             <a class="hidden md:block w-1/2 leading-4" id="footer-adress" href="https://goo.gl/maps/3WR6dZfM9PJUEJA56" target="_blank">
@@ -156,18 +173,8 @@
             </div>
         </div>
     </div>
-    <script>
-        var btnLeft = document.getElementById("cooks-move-left");
-        var btnRight = document.getElementById("cooks-move-right");
-        var container = document.getElementById("cooks-portret");
-
-        btnLeft.onclick = () => {
-            container.scrollLeft -= window.innerWidth/3;
-        }
-        btnRight.onclick = () => {
-            container.scrollLeft += window.innerWidth/3;
-        }
-    </script>
+    <script src="scripts/sidebar.js" defer></script>
+    <script src="scripts/cooks_slider.js"></script>
     <script src="scripts/language_switcher.js"></script>
 </body>
 </html>
