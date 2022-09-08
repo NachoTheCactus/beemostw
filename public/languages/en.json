@@ -5,6 +5,13 @@
     "bmo-btn-reserve-a-table": "Reserve a table",
     "bmo-btn-order-online": "Order online",
 
+    "res-title": "Reservations",
+    "res-description": "Reservations are accepted up to one month before the reservation date. Reservations can have a maximum of 6 people, for reservations with more than 6 people, please contact us at beemos@restaurant.com",
+    "res-date-label": "Date",
+    "res-time-label": "Time",
+    "res-nr-people-label": "Number of people",
+    "res-btn-reserve": "Reserve",
+
     "header-daily-menu": "DAILY MENU",
     "header-menu": "MENU",
     "header-about-us": "ABOUT US",
@@ -28,5 +35,6 @@
 
     "footer-adress-title": "Adress",
     "footer-phone-title": "Phone number"
+
 
 }
