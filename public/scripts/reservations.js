@@ -6,6 +6,9 @@ const header = document.getElementById("header");
 var elements = document.querySelector("#res-div>div");
 
 var resOpened = false;
+window.onresize = () => {
+    closeRes();
+}
 
 //To smoothen the opacity animation
 resBg.addEventListener("webkitTransitionEnd", () => {
@@ -45,7 +48,7 @@ function openRes(){
         resBg.style.opacity = "30%";
     }, 20);
         elements.style.opacity = "1";
-    }, 300);
+    }, 500);
     
 }
 function closeRes(){
@@ -57,5 +60,5 @@ function closeRes(){
     //Close sidebar
     setTimeout(() => {
         header.style.opacity = "1";
-    }, 350);
+    }, 600);
 }
