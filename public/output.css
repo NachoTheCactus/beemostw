@@ -792,6 +792,10 @@ video {
   width: 60%;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-\[180px\] {
   width: 180px;
 }
