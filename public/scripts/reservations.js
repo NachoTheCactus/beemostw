@@ -45,7 +45,7 @@ function openRes(){
     
     resBg.style.display = "block";
     setTimeout(() => {
-        resBg.style.opacity = "30%";
+        resBg.style.opacity = "70%";
     }, 20);
         elements.style.opacity = "1";
     }, 500);
