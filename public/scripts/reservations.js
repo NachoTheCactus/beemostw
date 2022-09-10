@@ -1,6 +1,6 @@
 const res = document.getElementById("res-div");
 const resBg = document.getElementById("res-bg");
-const resBtn = document.getElementById("res-btn");
+const resBtns = document.querySelectorAll(".res-btn");
 const resBtnClose = document.getElementById("res-btn-cls");
 const header = document.getElementById("header");
 var elements = document.querySelector("#res-div>div");
@@ -17,8 +17,10 @@ resBg.addEventListener("webkitTransitionEnd", () => {
     }
 });
 //On hamburger button click
-resBtn.onclick = () => {
-    openRes();
+for(i in resBtns){
+    resBtns[i].onclick = () => {
+        openRes();
+    }
 }
 resBg.onclick = () => {
     closeRes();

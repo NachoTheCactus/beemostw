@@ -1,5 +1,38 @@
 {
-    "title":"Salut",
-    "subtitle": "Cum esti?",
-    "lmao":"Capra calca-n piatra, piatra crapa-n patru, crape capul caprei in patru precum a crapat piatra-n patru."
+    "bmo-btn-view-menu": "Vezi Meniu",
+    "bmo-btn-show-more": "Arată Mai Mult",
+    "bmo-btn-show-less": "Arată Mai Puțin",
+    "bmo-btn-reserve-a-table": "Rezervă o masă",
+    "bmo-btn-order-online": "Comandă online",
+
+    "res-title": "Rezervări",
+    "res-description": "Rezervările sunt acceptate până la o lună înainte de data rezervării. Rezervările pot avea un maxim de 6 persoane. Pentru rezervări cu mai multe persoane contactaține la beemos@restaurant.com",
+    "res-date-label": "Data",
+    "res-time-label": "Ora",
+    "res-nr-people-label": "Number of people",
+    "res-btn-reserve": "Reserve",
+
+    "header-daily-menu": "MENIUL ZILEI",
+    "header-menu": "MENIU",
+    "header-about-us": "DESPRE NOI",
+    "header-contact": "CONTACT",
+    "header-reservations": "REZERVĂRI",
+
+    "cover-title": "Restaurantul Beemo's, retro, pentru satisfacerea gusturilor tale.",
+
+    "short-presentation-title": "Unul dintre cele mai bune restaurante din lume, cu peste 50 de ani de experiență, specializat în mâncăruri fine.",
+
+    "about-us-title": "DESPRE NOI",
+    "about-us-description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. asdfaw fwqef wqerq wereer qwerwq rweqr qwContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32.",
+
+    "cooks-title": "Suntem mândri de bucătarii noştri vestiți, aleşi din top.",
+    "cooks-message": "Ce mai aştepți? Rezervă o masă sau comandă online!",
+    "cook-role-dumitrache": "Chef",
+    "cook-role-scarlatescu": "Chef",
+    "cook-role-tao": "Bucătar",
+    "cook-role-petrescu": "Ajutor de bucătar",
+    "cook-role-vasile": "Ajutor de bucătar",
+
+    "footer-adress-title": "Adresă",
+    "footer-phone-title": "Număr de telefon"
 }

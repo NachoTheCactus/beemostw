@@ -1,5 +1,38 @@
 {
-    "title": "Hola",
-    "subtitle": "Como estas?",
-    "lmao":"La cabra pisa la roca, la roca se parte en cuatro, parte la cabeza de la cabra en cuatro como la piedra se parte en cuatro."
+    "bmo-btn-view-menu": "Vea el Menu",
+    "bmo-btn-show-more": "Mostrar Mas",
+    "bmo-btn-show-less": "Mostrar Menos",
+    "bmo-btn-reserve-a-table": "Reserva una mesa",
+    "bmo-btn-order-online": "Compra online",
+
+    "res-title": "Reservaciones",
+    "res-description": "Se aceptan reservaciones hasta un mes antes de la fecha de la reservacion. Las reservaciones pueden tener un máximo de 6 personas, para reservaciones de más de 6 personas, contactanos a beemos@restaurant.com",
+    "res-date-label": "Fecha",
+    "res-time-label": "Tiempo",
+    "res-nr-people-label": "Número de personas",
+    "res-btn-reserve": "Reserva",
+
+    "header-daily-menu": "EL MENÚ DEL DIA",
+    "header-menu": "MENÚ",
+    "header-about-us": "MÁS INFORMACIÓN",
+    "header-contact": "CONTACTO",
+    "header-reservations": "RESERVACIONES",
+
+    "cover-title": "Restaurante Beemo's, original y clasico, para satisfacer tus gustos.",
+
+    "short-presentation-title": "Uno de los mejores restaurantes del mundo, con más de 50 años de experiencia, especializado en comidas finas.",
+
+    "about-us-title": "MÁS INFORMACIÓN",
+    "about-us-description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. asdfaw fwqef wqerq wereer qwerwq rweqr qwContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32.",
+
+    "cooks-title": "Estamos orgullosos de nuestros reconocidos cocineros, elegidos de los mejores.",
+    "cooks-message": "¿Que estas esperando? ¡Reserva una mesa o haga un pedido online!",
+    "cook-role-dumitrache": "Chef",
+    "cook-role-scarlatescu": "Chef",
+    "cook-role-tao": "Cocinero",
+    "cook-role-petrescu": "Ayudante de cocina",
+    "cook-role-vasile": "Ayudante de cocina",
+
+    "footer-adress-title": "Dirección",
+    "footer-phone-title": "Número de teléfono"
 }

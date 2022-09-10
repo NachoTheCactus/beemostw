@@ -13,21 +13,11 @@
 
     <title>Beemo's</title>
 </head>
-<body class="font-bmo">
-    <!-- <div>
-        <button onclick="loadLanguageContent('en');">EN</button>
-        <button onclick="loadLanguageContent('es');">ES</button>
-        <button onclick="loadLanguageContent('ro');">RO</button>
-    </div>
-    <div class="p-8 gap-2 flex flex-col">
-        <h1 id="title" class="title text-4xl"></h1>
-        <h2 id="subtitle" class="subtitle text-2xl"></h2>
-        <p id="lmao" class="lmao"></p>
-    </div> -->
+<body class="font-bmo relative">
     <div id="sidebar" class="fixed top-14 left-0 h-1/2 pb-8 bg-bmo-b md:hidden z-20" style="width: 0; transition: width 500ms;">
         <div class="px-8">
             <img class="w-2/3 mt-4" src="assets/Logo/Logo_no_b2.webp" height="114px" alt="Beemo's logo">
-            <div class="border-t-2 border-t-white mt-4 pt-4 flex flex-col text-white text-sm-xl overflow-hidden transition-opacity w-full duration-500 whitespace-nowrap">
+            <div id="sidebar-links" class="opacity-0 border-t-2 border-t-white mt-4 pt-4 flex flex-col text-white text-sm-xl overflow-hidden w-full">
                 <a href="#" class="header-daily-menu bmo-link"></a>
                 <a href="#" class="header-menu bmo-link"></a>
                 <a href="#" class="header-about-us bmo-link"></a>
@@ -53,7 +43,7 @@
         <div class="container mx-auto p-6 pb-8" style="transition: all 300ms;">
             <div id="res-header" class="flex items-center justify-between">
                 <p class="res-title text-sm-xl"></p>
-                <div id="res-btn-cls" class="">
+                <div id="res-btn-cls" class="cursor-pointer">
                     X
                 </div>
             </div>
@@ -93,7 +83,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="active:border-b-0 mx-auto md:mx-0 h-fit px-8 py-4 mt-16 md:mt-auto res-btn-reserve hover:cursor-pointer text-xl lg:text-2xl text-white transition duration-200 md:py-2 md:px-8 w-fit border-b-2 border-b-white bg-bmo-y"></div>
+                <div class="active:border-b-0 mx-auto md:mx-0 h-fit px-8 py-2 mt-16 md:mt-auto res-btn-reserve hover:cursor-pointer text-xl lg:text-2xl text-white transition duration-200 md:py-2 md:px-8 w-fit border-b-2 border-b-white bg-bmo-y"></div>
             </div>
         </div>
     </div>
@@ -113,7 +103,7 @@
             <a href="#" class="header-about-us px-2 bmo-link"></a>
             <a href="#" class="header-contact px-2 bmo-link"></a>
         </div>
-        <div id="res-btn" class="header-reservations py-3 px-3 md:px-6 bmo-link"></div>
+        <div class="header-reservations py-3 px-3 md:px-6 bmo-link res-btn"></div>
     </div>
 
     <div id="content">
@@ -219,11 +209,21 @@
                 
                 <h2 class="cooks-message text-sm-2xl cook-shadow-lg mb-10 text-center -mx-8 md:mx-0"></h2>
                 <div class="flex gap-6 flex-col items-center md:flex-row md:gap-16">
-                    <div class="bmo-btn bmo-btn-reserve-a-table cook-shadow-btn text-sm-basee"></div>
+                    <div class="bmo-btn bmo-btn-reserve-a-table cook-shadow-btn text-sm-basee res-btn"></div>
                     <div class="bmo-btn bmo-btn-order-online cook-shadow-btn text-sm-base"></div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div id="language-selector" class="sticky bottom-0 left-0 w-0 overflow-visible" style="transition: all 300ms;">
+        <div id="language-icons" class="ml-4 flex gap-2 absolute w-32 opacity-0 hidden" style="transition: all 300ms;">
+            <img id="en-flag" class="-mt-8 w-6 h-4 cursor-pointer" src="assets/flags/en_flag.svg" alt="USA flag" width="75" height="50">
+            <img id="es-flag" class="-mt-8 w-6 h-4 cursor-pointer" src="assets/flags/es_flag.svg" alt="Spain flag" width="75" height="50">
+            <img id="ro-flag" class="-mt-8 w-6 h-4 cursor-pointer" src="assets/flags/ro_flag.webp" alt="Romania flag" width="75" height="50">
+        </div>
+        <div id="language-icons-bg" class="bg-bmo-b h-8 absolute -mt-10 w-0 opacity-50 -z-10" style="transition: all 300ms;"></div>
+        <div id="language-arrow" class="cursor-pointer bg-bmo-y border-l-2 border-l-bmo-b w-4 h-8 -mt-10 absolute ml-0 pl-3 pr-2 box-content" style="transition: all 300ms;"><svg id="arrow-right" class="w-3 mt-2 fill-white" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(2px 2px 4px -5px #772804);" viewBox="0 0 384 512"><path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></div>
     </div>
 
     <div id="footer" class="border-t-2 border-bmo-y h-20 w-full bg-bmo-b2 flex justify-between items-center text-white text-sm-base">
@@ -247,6 +247,6 @@
     <script src="scripts/sidebar.js" defer></script>
     <script src="scripts/reservations.js" defer></script>
     <script src="scripts/cooks_slider.js"></script>
-    <script src="scripts/language_switcher.js"></script>
+    <script src="scripts/language_selector.js"></script>
 </body>
 </html>

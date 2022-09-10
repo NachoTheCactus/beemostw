@@ -4,7 +4,7 @@
     const line1 = document.getElementById("brgr1");
     const line2 = document.getElementById("brgr2");
     const line3 = document.getElementById("brgr3");
-    const links = document.querySelector("#sidebar>div>div");
+    const links = document.getElementById("sidebar-links");
     var sidebarOpened = false;
     //Close sidebar when window has more than 768px
     window.onresize = ()=>{
@@ -44,7 +44,10 @@
         setTimeout(() => {
             sidebarBg.style.opacity = "30%";
         }, 20);
-        links.style.opacity = "1";
+        setTimeout(() => {
+            links.style.transition = "opacity 500ms"
+            links.style.opacity = "1";
+        }, 300);
     }
     function closeSidebar(){
         sidebarOpened = false;
@@ -56,5 +59,6 @@
         //Close sidebar
         sidebar.style.width = "0";
         sidebarBg.style.opacity = "0";
+        links.style.transition = "none"
         links.style.opacity = "0";
     }
