@@ -14,7 +14,7 @@
     <title>Beemo's</title>
 </head>
 <body class="font-bmo relative">
-    <div id="sidebar" class="fixed top-14 left-0 h-1/2 pb-8 bg-bmo-b md:hidden z-20" style="width: 0; transition: width 500ms;">
+    <div id="sidebar" class="fixed top-14 left-0 h-2/3 pb-8 bg-bmo-b md:hidden z-20" style="width: 0; transition: width 500ms;">
         <div class="px-8">
             <img class="w-2/3 mt-4" src="assets/Logo/Logo_no_b2.webp" height="114px" alt="Beemo's logo">
             <div id="sidebar-links" class="opacity-0 border-t-2 border-t-white mt-4 pt-4 flex flex-col text-white text-sm-xl overflow-hidden w-full">
@@ -97,7 +97,7 @@
             <div id="brgr3" class="h-0.5 w-7 bg-white mb-1.5 duration-500 group-active:bg-bmo-b"></div>
         </div>
         <a class="hidden md:flex h-full items-center" href="index.html"><img class="h-8 px-4" src="assets/Logo/Logo_no_b2.png" alt="Beemo's header logo"></a>
-        <div class="hidden md:flex justify-around lg:justify-center lg:gap-8 w-3/5 text-center">
+        <div id="header-links" class="hidden md:flex justify-around lg:justify-center lg:gap-8 w-3/5 text-center">
             <a href="#" class="header-daily-menu px-2 bmo-link"></a>
             <a href="#" class="header-menu px-2 bmo-link"></a>
             <a href="#" class="header-about-us px-2 bmo-link"></a>
@@ -248,5 +248,15 @@
     <script src="scripts/reservations.js" defer></script>
     <script src="scripts/cooks_slider.js"></script>
     <script src="scripts/language_selector.js"></script>
+    <script>
+        const headerLinks = document.getElementById("header-links");
+        const sidebarLinks = document.getElementById("sidebar-links");
+        headerLinks.onclick = () => {
+            alert("Daily Menu, Menu, About Us and Contact pages are not made yet.");
+        }
+        sidebarLinks.onclick = () => {
+            alert("Daily Menu, Menu, About Us and Contact pages are not made yet.");
+        }
+    </script>
 </body>
 </html>
