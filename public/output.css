@@ -737,8 +737,8 @@ video {
   display: none;
 }
 
-.h-1\/2 {
-  height: 50%;
+.h-2\/3 {
+  height: 66.666667%;
 }
 
 .h-full {
@@ -793,14 +793,6 @@ video {
 
 .h-20 {
   height: 5rem;
-}
-
-.h-\[500px\] {
-  height: 500px;
-}
-
-.h-2\/3 {
-  height: 66.666667%;
 }
 
 .max-h-full {

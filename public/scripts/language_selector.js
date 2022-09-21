@@ -10,7 +10,9 @@ const innerArrowRight = '<svg id="arrow-right" class="w-3 mt-2 fill-white" xmlns
 const btnEN = document.getElementById("en-flag");
 const btnES = document.getElementById("es-flag");
 const btnRO = document.getElementById("ro-flag");
-var isOpened = false;
+var isOpened = true;
+
+openLg();
 
 lgArrow.onclick = () => {
     if(isOpened){
